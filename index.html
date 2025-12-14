@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Node</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            color: #000;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #000;
+        }
+        h3 {
+            margin-top: 20px;
+            color: #444;
+        }
+        .highlight-box {
+            background-color: #f5f5f7;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #007aff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #007aff;
+            text-decoration: none;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Node</h1>
+    <p><strong>Last Updated:</strong> December 14, 2024<br>
+    <strong>Effective Date:</strong> December 14, 2024</p>
+
+    <div class="highlight-box">
+        <strong>Key Point:</strong> Node does NOT collect, transmit, or store any personal data on external servers. All data remains on your device.
+    </div>
+
+    <h2>Introduction</h2>
+    <p>Node ("we," "our," or "the app") is committed to protecting your privacy. This Privacy Policy explains how Node handles your information when you use our iOS application.</p>
+
+    <h2>Information We Do NOT Collect</h2>
+    <p>Node does <strong>NOT</strong> collect, transmit, or sell:</p>
+    <ul>
+        <li>Personal information (name, email, phone number)</li>
+        <li>Location data</li>
+        <li>Browsing history</li>
+        <li>Payment information</li>
+        <li>Health data</li>
+        <li>Contact lists</li>
+        <li>Photos or media</li>
+        <li>Device identifiers for tracking purposes</li>
+        <li>Analytics or usage statistics sent to servers</li>
+    </ul>
+
+    <h2>Information Stored Locally on Your Device</h2>
+    <p>Node stores the following data <strong>locally on your device only</strong> using iOS's secure local storage (such as UserDefaults or a local database):</p>
+
+    <h3>1. App Configuration Data</h3>
+    <ul>
+        <li><strong>Focus Modes:</strong> Names and app selections for your custom focus modes.</li>
+        <li><strong>Break Settings:</strong> Your selected break difficulty level.</li>
+        <li><strong>NFC Chip Identifier:</strong> A unique identifier for your registered NFC chip/tag.
+            <ul>
+                <li><em>Purpose:</em> To verify you're using the same physical chip for tap in/out.</li>
+                <li><em>Storage:</em> Local only.</li>
+                <li><em>Deletion:</em> Automatically deleted when you reset your NFC chip in settings.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>2. Usage Statistics</h3>
+    <ul>
+        <li><strong>Focus Time:</strong> Minutes spent in focus mode.</li>
+        <li><strong>Session Data:</strong> Start/end times of focus sessions.</li>
+        <li><strong>Streak Data:</strong> Count of consecutive days with minimum focus time.</li>
+        <li><strong>Break Usage:</strong> Number of breaks taken during sessions.</li>
+        <li><strong>Historical Data:</strong> Past focus time data used for charts and insights.</li>
+    </ul>
+    <p><strong>Purpose:</strong> To display your progress, insights, and motivate continued use.<br>
+    <strong>Storage:</strong> Local only, never transmitted to servers or third parties.</p>
+
+    <h3>3. Onboarding & Settings</h3>
+    <ul>
+        <li>Onboarding completion status.</li>
+        <li>Selected commitment goals.</li>
+        <li>Notification preferences.</li>
+        <li>Authorization status for Family Controls.</li>
+    </ul>
+
+    <h2>iOS Family Controls & Screen Time API</h2>
+    <p>Node uses Apple's Family Controls framework to enable app blocking functionality.</p>
+    
+    <h3>What This Means:</h3>
+    <ul>
+        <li><strong>Restricted Access:</strong> The app uses the <code>ManagedSettings</code> and <code>DeviceActivity</code> frameworks provided by Apple.</li>
+        <li><strong>Display Only:</strong> Usage data shown in the Insights tab is rendered using Apple's <code>DeviceActivityReport</code>. Node's code cannot "read" or export the specific content of your browsing history or app usage; it simply asks the operating system to display the chart.</li>
+        <li><strong>No Storage:</strong> We do NOT store, process, or transmit Screen Time data off your device.</li>
+        <li><strong>Apple's Control:</strong> All Screen Time data remains under Apple's strict privacy protections.</li>
+        <li><strong>Your Control:</strong> You grant/revoke access through iOS Settings > Screen Time.</li>
+    </ul>
+
+    <h3>App Blocking:</h3>
+    <ul>
+        <li>Node uses <code>ManagedSettings</code> to temporarily restrict selected apps.</li>
+        <li>Blocking applies only to apps YOU select.</li>
+        <li>You control when blocking is active (via NFC tap or timer).</li>
+    </ul>
+
+    <h2>NFC (Near Field Communication)</h2>
+    <h3>How We Use NFC:</h3>
+    <ul>
+        <li><strong>Reading Only:</strong> Node reads the Unique ID (UID) of the NFC tag when you tap.</li>
+        <li><strong>Verification:</strong> This UID is compared against the one stored locally on your device to unlock or lock a session.</li>
+        <li><strong>No Transmission:</strong> NFC data never leaves your device.</li>
+        <li><strong>No Tracking:</strong> We do not track your physical location via NFC.</li>
+    </ul>
+
+    <h2>Notifications</h2>
+    <p>If you enable notifications:</p>
+    <ul>
+        <li><strong>Local Only:</strong> All notifications are generated locally on your device by the app.</li>
+        <li><strong>Content:</strong> Streak achievements, timer completion, and milestone reminders.</li>
+        <li><strong>Control:</strong> You can enable/disable in iOS Settings > Notifications > Node.</li>
+    </ul>
+    <p>We do NOT send push notifications from external servers.</p>
+
+    <h2>Third-Party Services</h2>
+    <p><strong>Node does NOT use:</strong></p>
+    <ul>
+        <li>Analytics services (no Google Analytics, Firebase, Mixpanel, etc.)</li>
+        <li>Advertising networks</li>
+        <li>Crash reporting tools that transmit personal data</li>
+        <li>Social media SDKs</li>
+        <li>Cloud storage services</li>
+    </ul>
+    <p><strong>100% of Node's functionality runs entirely on your device.</strong></p>
+
+    <h2>Data Security</h2>
+    <h3>How Your Data is Protected:</h3>
+    <ul>
+        <li><strong>Local Storage:</strong> All data is stored in the iOS app sandbox, accessible only by Node.</li>
+        <li><strong>iOS Encryption:</strong> Data is protected by your device's passcode/biometric authentication (FaceID/TouchID).</li>
+        <li><strong>No Network Transfer:</strong> No data is ever transmitted over the internet by Node.</li>
+    </ul>
+    <h3>Your Responsibility:</h3>
+    <ul>
+        <li>Keep your device secure with a passcode.</li>
+        <li>Keep iOS updated for the latest security patches.</li>
+    </ul>
+
+    <h2>Your Rights & Choices</h2>
+    <h3>Access Your Data:</h3>
+    <p>All your data is visible within the app via the Insights tab and Settings menu.</p>
+
+    <h3>Delete Your Data:</h3>
+    <p>You can delete your data by:</p>
+    <ol>
+        <li><strong>Reset NFC Chip:</strong> In Settings > Reset NFC Chip.</li>
+        <li><strong>Delete App:</strong> Uninstalling Node permanently deletes <strong>ALL</strong> local data associated with the app.</li>
+        <li><strong>iOS Reset:</strong> Settings > General > Reset > Reset All Settings.</li>
+    </ol>
+    <p><strong>Note:</strong> Since we do not have servers, if you delete the app, we cannot restore your data. It is gone forever.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Node is not intended for children under 13, but because it collects no personal data, it is safe for all ages. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, though technically impossible as we have no servers to receive it.</p>
+
+    <h2>International Users (GDPR & CCPA)</h2>
+    <p>Node is available worldwide. By using Node, you acknowledge that:</p>
+    <ul>
+        <li><strong>GDPR (EU):</strong> We act as the Data Controller. However, as we do not collect or process data outside your device, your data remains under your physical control at all times.</li>
+        <li><strong>CCPA (California):</strong> We do not sell your data. We do not collect your personal data.</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or Node's privacy practices, please contact us.</p>
+    <p>
+        <strong>Developer:</strong> Aashir Khiani<br>
+        <strong>Email:</strong> <a href="mailto:nodefocusapp@gmail.com">nodefocusapp@gmail.com</a>
+    </p>
+
+    <div class="footer">
+        <p>&copy; 2024 Node. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
