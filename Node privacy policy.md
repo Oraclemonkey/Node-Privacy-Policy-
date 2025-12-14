@@ -150,17 +150,17 @@ iOS Reset: Settings > General > Reset > Reset All Settings.
 
 Note: Since we do not have servers, if you delete the app, we cannot restore your data. It is gone forever.
 
-Children's Privacy
+Children's Privacy:
 Node is not intended for children under 13, but because it collects no personal data, it is safe for all ages. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, though technically impossible as we have no servers to receive it.
 
-International Users (GDPR & CCPA)
+International Users (GDPR & CCPA):
 Node is available worldwide. By using Node, you acknowledge that:
 
 GDPR (EU): We act as the Data Controller. However, as we do not collect or process data outside your device, your data remains under your physical control at all times.
 
 CCPA (California): We do not sell your data. We do not collect your personal data.
 
-Contact Us
+Contact Us:
 If you have questions about this Privacy Policy or Node's privacy practices, please contact us.
 
 Developer: Aashir Khiani Email: nodefocusapp@gmail.com
